@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-files-mcalik"
-    key    = "tfstate/jenkins.tfstate"
+    bucket = "vepas-terraform-state-file"
+    key    = "tfstate/sample-module.tfstate"
     region = "us-east-1"
   }
 }
